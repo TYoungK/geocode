@@ -86,6 +86,46 @@ class ViewController: UIViewController, MKMapViewDelegate {
         map.setRegion(region, animated: true)
         
     }
+    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
+        let identifier = "myPin"
+        
+        // an already allocated annotation view
+        var annotationView = map.dequeueReusableAnnotationView(withIdentifier: identifier) as? MKPinAnnotationView
+        
+        if annotationView == nil {
+            annotationView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: identifier)
+            annotationView?.canShowCallout = true
+            let btn = UIButton(type: .detailDisclosure)
+            annotationView?.rightCalloutAccessoryView = btn
+            //annotationView?.pinTintColor = UIColor.green
+            annotationView?.animatesDrop = true
+        } else {
+            annotationView?.annotation = annotation
+        }
+        
+        let leftIconView = UIImageView(frame: CGRect(x: 0, y: 0, width: 53, height: 53))
+        if annotation.title! == "양정역" {
+            leftIconView.image = UIImage(named:"zenos1.jpeg" )
+            annotationView?.pinTintColor = UIColor.green
+        }
+        if annotation.title! == "동의과학대학" {
+            leftIconView.image = UIImage(named:"zenos2.jpeg" )
+            annotationView?.pinTintColor = UIColor.blue
+        }
+        if annotation.title! == "부산여자대학교" {
+            leftIconView.image = UIImage(named:"zenos3.png" )
+            annotationView?.pinTintColor = UIColor.black
+        }
+        if annotation.title! == "양정 대원칸타빌" {
+            leftIconView.image = UIImage(named:"zenos4.png" )
+            annotationView?.pinTintColor = UIColor.cyan
+        }
+        annotationView?.leftCalloutAccessoryView = leftIconView
+        
+        return annotationView
+        
+    }
+
 
 }
 

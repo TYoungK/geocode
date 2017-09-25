@@ -13,6 +13,10 @@
 		E52779251F78D666002410F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E52779241F78D666002410F2 /* Assets.xcassets */; };
 		E52779281F78D667002410F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E52779261F78D667002410F2 /* LaunchScreen.storyboard */; };
 		E52779301F78D68F002410F2 /* pinmark.plist in Resources */ = {isa = PBXBuildFile; fileRef = E527792F1F78D68F002410F2 /* pinmark.plist */; };
+		E52779341F78DDDE002410F2 /* zenos.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E52779311F78DDDE002410F2 /* zenos.jpeg */; };
+		E52779351F78DDDE002410F2 /* zenos2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E52779321F78DDDE002410F2 /* zenos2.jpeg */; };
+		E52779361F78DDDE002410F2 /* zenos3.png in Resources */ = {isa = PBXBuildFile; fileRef = E52779331F78DDDE002410F2 /* zenos3.png */; };
+		E527793A1F78DE64002410F2 /* zenos4.png in Resources */ = {isa = PBXBuildFile; fileRef = E52779391F78DE64002410F2 /* zenos4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		E52779271F78D667002410F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E52779291F78D667002410F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E527792F1F78D68F002410F2 /* pinmark.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pinmark.plist; sourceTree = "<group>"; };
+		E52779311F78DDDE002410F2 /* zenos.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = zenos.jpeg; path = ../../zenos.jpeg; sourceTree = "<group>"; };
+		E52779321F78DDDE002410F2 /* zenos2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = zenos2.jpeg; path = ../../zenos2.jpeg; sourceTree = "<group>"; };
+		E52779331F78DDDE002410F2 /* zenos3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zenos3.png; path = ../../zenos3.png; sourceTree = "<group>"; };
+		E52779391F78DE64002410F2 /* zenos4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zenos4.png; path = ../../zenos4.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 		E527791C1F78D666002410F2 /* geocording */ = {
 			isa = PBXGroup;
 			children = (
+				E52779311F78DDDE002410F2 /* zenos.jpeg */,
+				E52779321F78DDDE002410F2 /* zenos2.jpeg */,
+				E52779331F78DDDE002410F2 /* zenos3.png */,
+				E52779391F78DE64002410F2 /* zenos4.png */,
 				E527791D1F78D666002410F2 /* AppDelegate.swift */,
 				E527791F1F78D666002410F2 /* ViewController.swift */,
 				E52779211F78D666002410F2 /* Main.storyboard */,
@@ -126,9 +138,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E527793A1F78DE64002410F2 /* zenos4.png in Resources */,
 				E52779281F78D667002410F2 /* LaunchScreen.storyboard in Resources */,
+				E52779361F78DDDE002410F2 /* zenos3.png in Resources */,
 				E52779301F78D68F002410F2 /* pinmark.plist in Resources */,
+				E52779341F78DDDE002410F2 /* zenos.jpeg in Resources */,
 				E52779251F78D666002410F2 /* Assets.xcassets in Resources */,
+				E52779351F78DDDE002410F2 /* zenos2.jpeg in Resources */,
 				E52779231F78D666002410F2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,6 +321,7 @@
 				E527792E1F78D667002410F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
