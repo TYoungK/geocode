@@ -12,6 +12,7 @@
 		E52779231F78D666002410F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E52779211F78D666002410F2 /* Main.storyboard */; };
 		E52779251F78D666002410F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E52779241F78D666002410F2 /* Assets.xcassets */; };
 		E52779281F78D667002410F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E52779261F78D667002410F2 /* LaunchScreen.storyboard */; };
+		E52779301F78D68F002410F2 /* pinmark.plist in Resources */ = {isa = PBXBuildFile; fileRef = E527792F1F78D68F002410F2 /* pinmark.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E52779241F78D666002410F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E52779271F78D667002410F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E52779291F78D667002410F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E527792F1F78D68F002410F2 /* pinmark.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pinmark.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				E527791D1F78D666002410F2 /* AppDelegate.swift */,
 				E527791F1F78D666002410F2 /* ViewController.swift */,
 				E52779211F78D666002410F2 /* Main.storyboard */,
+				E527792F1F78D68F002410F2 /* pinmark.plist */,
 				E52779241F78D666002410F2 /* Assets.xcassets */,
 				E52779261F78D667002410F2 /* LaunchScreen.storyboard */,
 				E52779291F78D667002410F2 /* Info.plist */,
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E52779281F78D667002410F2 /* LaunchScreen.storyboard in Resources */,
+				E52779301F78D68F002410F2 /* pinmark.plist in Resources */,
 				E52779251F78D666002410F2 /* Assets.xcassets in Resources */,
 				E52779231F78D666002410F2 /* Main.storyboard in Resources */,
 			);
